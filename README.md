@@ -66,3 +66,24 @@ Row_id                       | Data Type | Variable Role | Description          
   * **Source:** https://github.com/jphall663/GWU_rml/tree/master/assignments/data
 * **Test data:** rows = 19831, columns = 22.
 * **Difference:** Target Variable "High Priced" is not there in the Test Data.
+
+#### - Model details (in the best-remediated model)
+
+* **Inputs:** 
+
+  | Inputs                   |
+  | ------------------------ |
+  | income_std               |
+  | conforming               |
+  | term_360                 |
+  | loan_amount_std          |
+  | intro_rate_period_std    |
+  | property_value_std       |
+  | no_intro_rate_period_std |
+  | debt_to_income_ratio_std |
+
+* **Target:** high_priced
+
+* **The type of the best model:** Explainable Boosting Machine (EBM)
+
+* **Software and the version:** needs to discuss
