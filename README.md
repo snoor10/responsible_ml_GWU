@@ -110,6 +110,6 @@ Row_id                       | Data Type | Variable Role | Description          
 
   | Model | AUC    |
   | ----- | ------ |
-  | GLM   |  |
-  | MXGB  |  |
-  | EBM   |  |
+  | GLM   |.7538  |
+  | MXGB  |.7917  |
+  | EBM   |.8253  |
