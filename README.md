@@ -87,3 +87,29 @@ Row_id                       | Data Type | Variable Role | Description          
 * **The type of the best model:** Explainable Boosting Machine (EBM)
 
 * **Software and the version:** needs to discuss
+
+* **Hyperparameters:** 
+
+  | Best Model Hyperparameters | Value |
+  | -------------------------- | ----- |
+  | max_bins                   | 256   |
+  | max_interaction_bins       | 32    |
+  | interactions               | 5     |
+  | outer_bags                 | 4     |
+  | inner_bags                 | 4     |
+  | learning_rate              | 0.001 |
+  | validation_size            | 0.5   |
+  | min_samples_leaf           | 5     |
+  | max_leaves                 | 3     |
+
+
+
+#### - Quantitative analysis 
+
+* **Model selection:** Our criteria is AUC and the higher AUC means the better model. Based on the following value, we choose EBM model as the best model. 
+
+  | Model | AUC    |
+  | ----- | ------ |
+  | GLM   | 0.7538 |
+  | MXGB  | 0.7921 |
+  | EBM   | 0.8249 |
