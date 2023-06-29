@@ -65,4 +65,4 @@ Row_id                       | Data Type | Variable Role | Description          
 * Home Mortgage Disclosure Act (HMDA) unlabeled test data.
   * **Source:** https://github.com/jphall663/GWU_rml/tree/master/assignments/data
 * **Test data:** rows = 19831, columns = 22.
-* **Difference:** Training data has an extra target variable column called "high_priced" that the test data does not have.
+* **Difference:** Target Variable "High Priced" is not there in the Test Data.
