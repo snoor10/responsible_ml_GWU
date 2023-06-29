@@ -107,6 +107,7 @@ Row_id                       | Data Type | Variable Role | Description          
 #### Quantitative analysis 
 
 * **Model selection:** Our criteria for determining the best model is based on AUC. The higher AUC means the better model. Hence, we have chosen EBM as the best model based on the AUC of other models.
+  
   | Model | AUC    |
   | ----- | ------ |
   | GLM   |.7538  |
