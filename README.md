@@ -67,7 +67,7 @@ Row_id                       | Data Type | Variable Role | Description          
 * **Test data:** rows = 19831, columns = 22.
 * **Difference:** Target Variable "High Priced" is not there in the Test Data.
 
-#### - Model details (in the best-remediated model)
+#### Model details (in the best-remediated model)
 
 * **Inputs:** 
 
