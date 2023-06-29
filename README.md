@@ -92,15 +92,15 @@ Row_id                       | Data Type | Variable Role | Description          
 
   | Best Model Hyperparameters | Value |
   | -------------------------- | ----- |
-  | max_bins                   | 256   |
-  | max_interaction_bins       | 32    |
-  | interactions               | 5     |
-  | outer_bags                 | 4     |
-  | inner_bags                 | 4     |
-  | learning_rate              | 0.001 |
-  | validation_size            | 0.5   |
-  | min_samples_leaf           | 5     |
-  | max_leaves                 | 3     |
+  | max_bins                   |    |
+  | max_interaction_bins       |     |
+  | interactions               |      |
+  | outer_bags                 |      |
+  | inner_bags                 |      |
+  | learning_rate              |  |
+  | validation_size            |    |
+  | min_samples_leaf           |     |
+  | max_leaves                 |      |
 
 
 
@@ -110,6 +110,6 @@ Row_id                       | Data Type | Variable Role | Description          
 
   | Model | AUC    |
   | ----- | ------ |
-  | GLM   | 0.7538 |
-  | MXGB  | 0.7921 |
-  | EBM   | 0.8253 |
+  | GLM   |  |
+  | MXGB  |  |
+  | EBM   |  |
