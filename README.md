@@ -9,6 +9,8 @@ Mia Lakstigala  (mia.lakstigala@gwmail.gwu.edu)
 
 Brenden Moore  (brendenmoore@gwmail.gwu.edu) 
 
+### License: 
+
 ### Summary
 The highest area under the curve (AUC) belonged to the EBM model with a value of 0.8253. Therefore, we chose the EBM (Explainable Boosting Machine) model as the best model among Generalized Linear Model (GLM), Monotonic Gradient Boosting (MXGB), and Explainable Boosting Machine (EBM) models. Bias testing was done by splitting the different groups like "Black", "Asian", "White", "Male", and "Female" and calculating the Adverse Impact Ratio (AIR) and Area Under the Curve (AUC). Model extraction attack was done via red-teaming. Lastly, sensitivity analysis (stress testing), residual analysis, and remediation (removing outliers and down-sampling to increase the signal from high-priced loans) were done to ensure model debugging.
 
@@ -34,18 +36,18 @@ The highest area under the curve (AUC) belonged to the EBM model with a value of
   
 Row_id                       | Data Type | Variable Role | Description                                                  |
   | ---------------------------- | --------- | ------------- | ------------------------------------------------------------ |
-  | Black                        | Binary    | Input         | Applicants who are black (1) or not (0)                      |
-  | Asian                        | Binary    | Input         | Applicants who are asian (1) or not (0)                      |
+  | black                        | Binary    | Input         | Applicants who are black (1) or not (0)                      |
+  | asian                        | Binary    | Input         | Applicants who are Asian (1) or not (0)                      |
   | white                        | Binary    | Input         | Applicants who are white (1) or not (0)                      |
   | amind                        | Binary    | Input         | Applicants who are amind (1) or not (0)                      |
-  | hipac                        | Binary    | Input         | Applicants who are hipac (1) or not (0)                      |
-  | hispanic                     | Binary    | Input         | Applicants who are hispanic (1) or not (0)                   |
-  | non_hispanic                 | Binary    | Input         | Applicants who are not hispanic (1) or not (0)               |
+  | hipac                        | Binary    | Input         | Applicants who are Hipac (1) or not (0)                      |
+  | hispanic                     | Binary    | Input         | Applicants who are Hispanic (1) or not (0)                   |
+  | non_hispanic                 | Binary    | Input         | Applicants who are not Hispanic (1) or not (0)               |
   | male                         | Binary    | Input         | Gender of the applicant is male (1) or not (0)               |
   | female                       | Binary    | Input         | Gender of the applicant is female (1) or not (0)             |
   | agegte62                     | Binary    | Input         | Applicants' age is greater than 62 (1) or not (0)            |
   | agelt62                      | Binary    | Input         | Applicants' age is lower than 62 (1) or not (0)              |
-  | term 360                     | Binary    | Input         | Whether the mortgage is a standard 360 month mortgage (1) or a different type of mortgage (0). |
+  | term 360                     | Binary    | Input         | Whether the mortgage is a standard 360-month mortgage (1) or a different type of mortgage (0). |
   | conforming                   | Binary    | Input         | Whether the mortgage conforms to normal standards (1), or whether the loan is different (0), e.g., jumbo, HELOC, reverse mortgage, etc. |
   | debt_to_income_ratio_missing | Binary    | Input         | Missing marker (1) for std. debt to income ratio.            |
   | loan_amount_std              | Numeric   | Input         | Standardized amount of the mortgage for applicants.          |
