@@ -59,3 +59,10 @@ Row_id                       | Data Type | Variable Role | Description          
   | income_std                   | Numeric   | Input         | Standardized income of the applicants.                       |
   | debt_to_income_ratio_std     | Numeric   | Input         | Standardized debt-to-income ratio of the applicants.         |
   | high_priced                  | Binary    | Target        | Whether (1) or not (0) the annual percentage rate (APR) charged for a mortgage is 150 basis points (1.5%) or more above a survey-based estimate of similar mortgages. |
+
+#### Evaluation data
+
+* Home Mortgage Disclosure Act (HMDA) unlabeled test data.
+  * **Source:** https://github.com/jphall663/GWU_rml/tree/master/assignments/data
+* **Test data:** rows = 19831, columns = 22.
+* **Difference:** Training data has an extra target variable column called "high_priced" that the test data does not have.
