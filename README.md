@@ -104,7 +104,7 @@ Row_id                       | Data Type | Variable Role | Description          
 
 
 
-#### - Quantitative analysis 
+#### Quantitative analysis 
 
 * **Model selection:** Our criteria is AUC and the higher AUC means the better model. Based on the following value, we choose EBM model as the best model. 
 
@@ -112,4 +112,4 @@ Row_id                       | Data Type | Variable Role | Description          
   | ----- | ------ |
   | GLM   | 0.7538 |
   | MXGB  | 0.7921 |
-  | EBM   | 0.8249 |
+  | EBM   | 0.8253 |
