@@ -20,3 +20,14 @@ The highest area under the curve (AUC) belonged to the EBM model with a value of
 * **Out-of-scope use cases**
 *Need to discuss
 
+### Training data
+* Home Mortgage Disclosure Act (HMDA) labeled training data.
+  * **Source:**  https://github.com/jphall663/GWU_rml/tree/master/assignments/data 
+
+* **Data Split Ratio:** Training Data (70%), Validation Data (30%).
+
+* **Training data:** Rows = 112253, Columns = 23.
+
+* **Validation data:** Rows = 48085, Columns = 23.
+
+* **Definition of all the columns in training data:**
