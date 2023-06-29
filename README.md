@@ -31,3 +31,28 @@ The highest area under the curve (AUC) belonged to the EBM model with a value of
 * **Validation data:** Rows = 48085, Columns = 23.
 
 * **Definition of all the columns in training data:**
+  
+Row_id                       | Data Type | Variable Role | Description                                                  |
+  | ---------------------------- | --------- | ------------- | ------------------------------------------------------------ |
+  | Black                        | Binary    | Input         | Applicants who are black (1) or not (0)                      |
+  | Asian                        | Binary    | Input         | Applicants who are asian (1) or not (0)                      |
+  | white                        | Binary    | Input         | Applicants who are white (1) or not (0)                      |
+  | amind                        | Binary    | Input         | Applicants who are amind (1) or not (0)                      |
+  | hipac                        | Binary    | Input         | Applicants who are hipac (1) or not (0)                      |
+  | hispanic                     | Binary    | Input         | Applicants who are hispanic (1) or not (0)                   |
+  | non_hispanic                 | Binary    | Input         | Applicants who are not hispanic (1) or not (0)               |
+  | male                         | Binary    | Input         | Gender of the applicant is male (1) or not (0)               |
+  | female                       | Binary    | Input         | Gender of the applicant is female (1) or not (0)             |
+  | agegte62                     | Binary    | Input         | Applicants' age is greater than 62 (1) or not (0)            |
+  | agelt62                      | Binary    | Input         | Applicants' age is lower than 62 (1) or not (0)              |
+  | term 360                     | Binary    | Input         | Whether the mortgage is a standard 360 month mortgage (1) or a different type of mortgage (0). |
+  | conforming                   | Binary    | Input         | Whether the mortgage conforms to normal standards (1), or whether the loan is different (0), e.g., jumbo, HELOC, reverse mortgage, etc. |
+  | debt_to_income_ratio_missing | Binary    | Input         | Missing marker (1) for std. debt to income ratio.            |
+  | loan_amount_std              | Numeric   | Input         | Standardized amount of the mortgage for applicants.          |
+  | loan_to_value_ratio_std      | Numeric   | Input         | Ratio of the size of the mortgage to the value of the applicant's property. |
+  | no_intro_rate_period_std     | Binary    | Input         | Whether or not a mortgage includes an introductory rate period. |
+  | intro_rate_period_std        | Numeric   | Input         | Standardized introductory rate period for mortgage applicants. |
+  | property_value_std           | Numeric   | Input         | Value of the mortgaged property.                             |
+  | income_std                   | Numeric   | Input         | Standardized income of the applicants.                       |
+  | debt_to_income_ratio_std     | Numeric   | Input         | Standardized debt-to-income ratio of the applicants.         |
+  | high_priced                  | Binary    | Target        | Whether (1) or not (0) the annual percentage rate (APR) charged for a mortgage is 150 basis points (1.5%) or more above a survey-based estimate of similar mortgages. |
