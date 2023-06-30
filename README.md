@@ -116,4 +116,4 @@ Row_id                       | Data Type | Variable Role | Description          
 
 * **Feature importance**: The best EBM feature importance plot shows global variable importance in EBM to make a feature selection.
 
-
+![alt text](http://url/to/img.png)
