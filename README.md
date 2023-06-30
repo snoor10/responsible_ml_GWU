@@ -112,7 +112,8 @@ Row_id                       | Data Type | Variable Role | Description          
 
 #### Quantitative analysis 
 
-* **Model selection:** Our criteria for determining the best model is based on AUC. The higher AUC means the better model. Hence, we have chosen EBM as the best model based on the AUC of other models.
+##### Model selection:
+Our criteria for determining the best model is based on AUC. The higher AUC means the better model. Hence, we have chosen EBM as the best model based on the AUC of other models.
   
   | Model | AUC    |
   | ----- | ------ |
@@ -120,8 +121,17 @@ Row_id                       | Data Type | Variable Role | Description          
   | MXGB  |.7917  |
   | EBM   |.8253  |
 
-* ** Local Feature importance across all models:** Feature importance refers to techniques that assign a score to input features based on how useful they are at predicting a target variable.
+##### Local Feature importance across all models: 
+Feature importance refers to techniques that assign a score to input features to quantify their utility at predicting a target variable.
 
 ![alt text](https://github.com/snoor10/responsible_ml_GWU/blob/bd07b58a2b80ab10523da1ba9161c6fcf8416cef/Model_card_Pic/Local%20Feature%20importance%20across%20all%20models.png)
 
-* **Feature importance**: The best EBM feature importance plot shows global variable importance in EBM to make a feature selection.
+##### Global Feature importance across all models: 
+Global feature importance outlines which features are globally the most important for the model, it averages across all predictions we want to find the most important features and also quantify and rank this importance.
+
+![alt text](https://github.com/snoor10/responsible_ml_GWU/blob/eb8577d7546d768162e100ca8ef9685f41f3a6cc/Model_card_Pic/Global%20Feature%20importance.png)
+
+##### Partial Dependence Plots 
+The partial dependence plots visualise the marginal effect of one or two features on the prediceted outcome of a machine learning model. 
+
+![alt text](https://github.com/snoor10/responsible_ml_GWU/blob/7d3535369982a76c60a7cae4df93e5e0ce3fcee9/Model_card_Pic/Partial%20dependence%20plots.png)
