@@ -134,4 +134,5 @@ Global feature importance outlines which features are globally the most importan
 ##### Partial Dependence Plots 
 The partial dependence plots visualise the marginal effect of one or two features on the prediceted outcome of a machine learning model. 
 
-![alt text](https://github.com/snoor10/responsible_ml_GWU/blob/7d3535369982a76c60a7cae4df93e5e0ce3fcee9/Model_card_Pic/Partial%20dependence%20plots.png)
+![alt text](https://github.com/snoor10/responsible_ml_GWU/blob/1ab9b4c31e8a8012685ff86c5f91661e341ef057/Model_card_Pic/Partial%20Dependence%20plots/PD_1.png)
+![alt text](https://github.com/snoor10/responsible_ml_GWU/blob/1ab9b4c31e8a8012685ff86c5f91661e341ef057/Model_card_Pic/Partial%20Dependence%20plots/PD_2.png)
