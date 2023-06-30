@@ -113,3 +113,7 @@ Row_id                       | Data Type | Variable Role | Description          
   | GLM   |.7538  |
   | MXGB  |.7917  |
   | EBM   |.8253  |
+
+* **Feature importance**: The best EBM feature importance plot shows global variable importance in EBM to make a feature selection.
+
+  
