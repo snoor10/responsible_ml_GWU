@@ -120,8 +120,7 @@ Row_id                       | Data Type | Variable Role | Description          
   | MXGB  |.7917  |
   | EBM   |.8253  |
 
-* ** Local Feature importance across all models:**
-  Feature importance refers to techniques that assign a score to input features based on how useful they are at predicting a target variable.
+* ** Local Feature importance across all models:** Feature importance refers to techniques that assign a score to input features based on how useful they are at predicting a target variable.
 
 ![alt text](https://github.com/snoor10/responsible_ml_GWU/blob/bd07b58a2b80ab10523da1ba9161c6fcf8416cef/Model_card_Pic/Local%20Feature%20importance%20across%20all%20models.png)
 
