@@ -175,6 +175,7 @@ Grid search is a tuning technique that attempts to compute the optimum values of
 ![alt text](https://github.com/snoor10/responsible_ml_GWU/blob/e1ddccc407062036fa63def85b47b05f4949ff12/Model_card_Pic/Sensitivity%20Analysis%20Stress%20Testing.png)
 
 #### Residual Analysis
+Residual plot used to identify outliers and improve model training
 
 ![alt text](https://github.com/snoor10/responsible_ml_GWU/blob/e1ddccc407062036fa63def85b47b05f4949ff12/Model_card_Pic/Residual%20analysis.png)
 
