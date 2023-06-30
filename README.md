@@ -110,9 +110,9 @@ Row_id                       | Data Type | Variable Role | Description          
 
 
 
-#### Quantitative analysis 
+### Quantitative analysis 
 
-##### Model selection:
+#### Model selection:
 Our criteria for determining the best model is based on AUC. The higher AUC means the better model. Hence, we have chosen EBM as the best model based on the AUC of other models.
   
   | Model | AUC    |
@@ -121,18 +121,26 @@ Our criteria for determining the best model is based on AUC. The higher AUC mean
   | MXGB  |.7917  |
   | EBM   |.8253  |
 
-##### Local Feature importance across all models: 
+#### Local Feature importance across all models: 
 Feature importance refers to techniques that assign a score to input features to quantify their utility at predicting a target variable.
 
 ![alt text](https://github.com/snoor10/responsible_ml_GWU/blob/bd07b58a2b80ab10523da1ba9161c6fcf8416cef/Model_card_Pic/Local%20Feature%20importance%20across%20all%20models.png)
 
-##### Global Feature importance across all models: 
+#### Global Feature importance across all models: 
 Global feature importance outlines which features are globally the most important for the model, it averages across all predictions we want to find the most important features and also quantify and rank this importance.
 
 ![alt text](https://github.com/snoor10/responsible_ml_GWU/blob/eb8577d7546d768162e100ca8ef9685f41f3a6cc/Model_card_Pic/Global%20Feature%20importance.png)
 
-##### Partial Dependence Plots 
+#### Partial Dependence Plots 
 The partial dependence plots visualise the marginal effect of one or two features on the prediceted outcome of a machine learning model. 
 
 ![alt text](https://github.com/snoor10/responsible_ml_GWU/blob/1ab9b4c31e8a8012685ff86c5f91661e341ef057/Model_card_Pic/Partial%20Dependence%20plots/PD_1.png)
 ![alt text](https://github.com/snoor10/responsible_ml_GWU/blob/1ab9b4c31e8a8012685ff86c5f91661e341ef057/Model_card_Pic/Partial%20Dependence%20plots/PD_2.png)
+![alt text](https://github.com/snoor10/responsible_ml_GWU/blob/24a363bb589d9c0f7ce81eefdf3ff118f4c22608/Model_card_Pic/Partial%20Dependence%20plots/PD_3.png)
+![alt text](https://github.com/snoor10/responsible_ml_GWU/blob/24a363bb589d9c0f7ce81eefdf3ff118f4c22608/Model_card_Pic/Partial%20Dependence%20plots/PD_4.png)
+![alt text](https://github.com/snoor10/responsible_ml_GWU/blob/24a363bb589d9c0f7ce81eefdf3ff118f4c22608/Model_card_Pic/Partial%20Dependence%20plots/PD_5.png)
+![alt text](https://github.com/snoor10/responsible_ml_GWU/blob/24a363bb589d9c0f7ce81eefdf3ff118f4c22608/Model_card_Pic/Partial%20Dependence%20plots/PD_6.png)
+![alt text](https://github.com/snoor10/responsible_ml_GWU/blob/24a363bb589d9c0f7ce81eefdf3ff118f4c22608/Model_card_Pic/Partial%20Dependence%20plots/PD_7.png)
+![alt text](https://github.com/snoor10/responsible_ml_GWU/blob/24a363bb589d9c0f7ce81eefdf3ff118f4c22608/Model_card_Pic/Partial%20Dependence%20plots/PD_8.png)
+![alt text](https://github.com/snoor10/responsible_ml_GWU/blob/24a363bb589d9c0f7ce81eefdf3ff118f4c22608/Model_card_Pic/Partial%20Dependence%20plots/PD_9.png)
+![alt text](https://github.com/snoor10/responsible_ml_GWU/blob/24a363bb589d9c0f7ce81eefdf3ff118f4c22608/Model_card_Pic/Partial%20Dependence%20plots/PD_10.png)
