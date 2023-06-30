@@ -1,4 +1,4 @@
-# RML6290_11:Group1 Home Mortgage Disclosure Act
+# DNSC: 6290_11:Group1 Home Mortgage Disclosure Act
 
 Group 1 spent Summer 2023 in DNSC 6920_11, taught by Professor Patrick Hall, developing interpretable machine learning models. The objective was to predict the probability of applicants being charged a higher rate than others for mortgages using the Home Mortgage Disclosure Act's historic mortgage reporting data. Due to the known dangers of deploying black-box machine learning models into public use where individuals care vulnerable to bias, our group worked with Professor Hall to develop explainable and interpretable predictive models that improve trust and encourage ethical decisions.
 
@@ -144,3 +144,45 @@ The partial dependence plots visualise the marginal effect of one or two feature
 ![alt text](https://github.com/snoor10/responsible_ml_GWU/blob/24a363bb589d9c0f7ce81eefdf3ff118f4c22608/Model_card_Pic/Partial%20Dependence%20plots/PD_8.png)
 ![alt text](https://github.com/snoor10/responsible_ml_GWU/blob/24a363bb589d9c0f7ce81eefdf3ff118f4c22608/Model_card_Pic/Partial%20Dependence%20plots/PD_9.png)
 ![alt text](https://github.com/snoor10/responsible_ml_GWU/blob/24a363bb589d9c0f7ce81eefdf3ff118f4c22608/Model_card_Pic/Partial%20Dependence%20plots/PD_10.png)
+
+#### Grid search results Plot 
+Grid search is a tuning technique that attempts to compute the optimum values of hyperparameters, in this project we used Grid Search to find a model with good accuracy and improved fairness. 
+
+![alt text](https://github.com/snoor10/responsible_ml_GWU/blob/b8ab386ce93d247c705275d6c58a14fe68701dd9/Model_card_Pic/Grid%20search.png)
+
+#### Best AIR and AUC 
+
+![alt text](https://github.com/snoor10/responsible_ml_GWU/blob/980e5c03f6a97db2bfbf4088b35404196c570a46/Model_card_Pic/Best_auc-air.PNG)
+
+#### Best model Hyperparameters 
+
+![alt text](https://github.com/snoor10/responsible_ml_GWU/blob/980e5c03f6a97db2bfbf4088b35404196c570a46/Model_card_Pic/Best%20model%20hyperparameters.PNG)
+
+#### Model Extraction Attack 
+
+![alt text](https://github.com/snoor10/responsible_ml_GWU/blob/424d5d8dab1e007c0978cf237387c6ba51c7d82b/Model_card_Pic/Extraction_Attack.png)
+
+#### Stolen Decision Tree Model
+
+![alt text](https://github.com/snoor10/responsible_ml_GWU/blob/e1ddccc407062036fa63def85b47b05f4949ff12/Model_card_Pic/Stolen%20Decision%20Tree%20model.png)
+
+#### Variable importance: H2O distributed Random Forest
+
+![alt text](https://github.com/snoor10/responsible_ml_GWU/blob/e1ddccc407062036fa63def85b47b05f4949ff12/Model_card_Pic/Variable%20Importance%20for%20stolen%20model.png)
+
+#### Sensitivity Analysis (Stress Testing) 
+
+![alt text](https://github.com/snoor10/responsible_ml_GWU/blob/e1ddccc407062036fa63def85b47b05f4949ff12/Model_card_Pic/Sensitivity%20Analysis%20Stress%20Testing.png)
+
+#### Residual Analysis
+
+![alt text](https://github.com/snoor10/responsible_ml_GWU/blob/e1ddccc407062036fa63def85b47b05f4949ff12/Model_card_Pic/Residual%20analysis.png)
+
+## Ethical Considerations 
+
+- Model accuracy is vulnerable to changes in economic environment
+- Data pre-processing should be evaluated for any legal issues as analysis utilizing racial data can be vulnerable to disparate treatment.
+- Bias testing and remediation checks that models are assesing what they are targeting towards testing and external interference is not affecting the results. Inappropriate implementation of bias testing and remediation can lead to discrimination and societal harm.
+- Despite our efforts to test and remediate our model for bias, elements of bias can remain. Therefore this model could be continually monitored for evidence of bias or other related issues. 
+
+
