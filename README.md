@@ -1,4 +1,8 @@
-# RML6290:Group1 Home Mortgage Disclosure Act
+# RML6290_11:Group1 Home Mortgage Disclosure Act
+
+Group 1 spent Summer 2023 in DNSC 6920_11, taught by Professor Patrick Hall, developing interpretable machine learning models. The objective was to predict the probability of applicants being charged a higher rate than others for mortgages using the Home Mortgage Disclosure Act's historic mortgage reporting data. Due to the known dangers of deploying black-box machine learning models into public use where individuals care vulnerable to bias, our group worked with Professor Hall to develop explainable and interpretable predictive models that improve trust and encourage ethical decisions.
+
+## Model Details
 
 ### Team Members
 Priyanka Bhatia (priyanka.bhatia@gwu.edu) 
@@ -9,19 +13,21 @@ Mia Lakstigala  (mia.lakstigala@gwmail.gwu.edu)
 
 Brenden Moore  (brendenmoore@gwmail.gwu.edu) 
 
-### License
-Apache-2.0 license
+### Basic Information
+- Model Date: June, 2023
+- License: Apache 2.0
+- Model implementation code: Assignment_5_Group_1
 
 ### Summary
 The highest area under the curve (AUC) belonged to the EBM model with a value of 0.8253. Therefore, we chose the EBM (Explainable Boosting Machine) model as the best model among Generalized Linear Model (GLM), Monotonic Gradient Boosting (MXGB), and Explainable Boosting Machine (EBM) models. Bias testing was done by splitting the different groups like "Black", "Asian", "White", "Male", and "Female" and calculating the Adverse Impact Ratio (AIR) and Area Under the Curve (AUC). Model extraction attack was done via red-teaming. Lastly, sensitivity analysis (stress testing), residual analysis, and remediation (removing outliers and down-sampling to increase the signal from high-priced loans) were done to ensure model debugging.
 
 ### Intended use
 * **Primary intended uses**
-*Need to discuss
+To reduce discrimination and bias in the process of issuing mortgage rates to applicants through the use of transparent explainable machine learning models. 
 * **Primary intended users**
-*Need to discuss
+George Washington University Faculty, Students, Educators 
 * **Out-of-scope use cases**
-*Need to discuss
+Models that appear in this repository are for educational-purposes and should not be used to determine real-world credit worthiness.
 
 ### Training data
 * Home Mortgage Disclosure Act (HMDA) labeled training data.
@@ -60,7 +66,7 @@ Row_id                       | Data Type | Variable Role | Description          
   | debt_to_income_ratio_std     | Numeric   | Input         | Standardized debt-to-income ratio of the applicants.         |
   | high_priced                  | Binary    | Target        | Whether (1) or not (0) the annual percentage rate (APR) charged for a mortgage is 150 basis points (1.5%) or more above a survey-based estimate of similar mortgages. |
 
-#### Evaluation data
+#### Test data
 
 * Home Mortgage Disclosure Act (HMDA) unlabeled test data.
   * **Source:** https://github.com/jphall663/GWU_rml/tree/master/assignments/data
@@ -69,7 +75,7 @@ Row_id                       | Data Type | Variable Role | Description          
 
 #### Model details (in the best-remediated model)
 
-* **Inputs:** 
+* **Column(s) used as Inputs in Final Model:** 
 
   | Inputs                   |
   | ------------------------ |
@@ -82,11 +88,11 @@ Row_id                       | Data Type | Variable Role | Description          
   | no_intro_rate_period_std |
   | debt_to_income_ratio_std |
 
-* **Target:** high_priced
+* **Column(s) used as targets in the final model:** high_priced
 
 * **The type of the best model:** Explainable Boosting Machine (EBM)
 
-* **Software and the version:** needs to discuss
+* **Software and the version:** Python 3.10.12, InterpretMLv0.2.5.
 
 * **Hyperparameters:** 
 
@@ -117,3 +123,5 @@ Row_id                       | Data Type | Variable Role | Description          
 * **Feature importance**: The best EBM feature importance plot shows global variable importance in EBM to make a feature selection.
 
 ![alt text](https://github.com/snoor10/responsible_ml_GWU/blob/main/Model_card_Pic/Best_EBM_Feature.png)
+
+* **Feature importance**: The best EBM feature importance plot shows global variable importance in EBM to make a feature selection.
