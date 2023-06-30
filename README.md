@@ -92,7 +92,7 @@ Row_id                       | Data Type | Variable Role | Description          
 
 * **The type of the best model:** Explainable Boosting Machine (EBM)
 
-* **Software and the version:** Python 3.10.12, InterpretMLv0.2.5.
+* **Software and the version:** Python 3.10.12, InterpretML v0.2.5.
 
 * **Hyperparameters:** 
 
@@ -120,8 +120,9 @@ Row_id                       | Data Type | Variable Role | Description          
   | MXGB  |.7917  |
   | EBM   |.8253  |
 
-* **Feature importance**: The best EBM feature importance plot shows global variable importance in EBM to make a feature selection.
+* ** Local Feature importance across all models**:
+  Feature importance refers to techniques that assign a score to input features based on how useful they are at predicting a target variable.
 
-![alt text](https://github.com/snoor10/responsible_ml_GWU/blob/main/Model_card_Pic/Best_EBM_Feature.png)
+![alt text](https://github.com/snoor10/responsible_ml_GWU/blob/bd07b58a2b80ab10523da1ba9161c6fcf8416cef/Model_card_Pic/Local%20Feature%20importance%20across%20all%20models.png)
 
 * **Feature importance**: The best EBM feature importance plot shows global variable importance in EBM to make a feature selection.
