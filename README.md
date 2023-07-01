@@ -184,6 +184,6 @@ Residual plot used to identify outliers and improve model training
 - Model accuracy is vulnerable to changes in economic environment
 - Data pre-processing should be evaluated for any legal issues as analysis utilizing racial data can be vulnerable to disparate treatment.
 - Bias testing and remediation checks that models are assesing what they are targeting towards testing and external interference is not affecting the results. Inappropriate implementation of bias testing and remediation can lead to discrimination and societal harm.
-- Despite our efforts to test and remediate our model for bias, elements of bias can remain. Therefore this model could be continually monitored for evidence of bias or other related issues. 
+- Despite our efforts to test and remediate our model for bias, elements of bias can remain. Therefore this model should be continually monitored for evidence of bias or other related issues. 
 
 
