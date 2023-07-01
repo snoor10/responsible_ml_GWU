@@ -100,9 +100,17 @@ Our criteria for determining the best model is based on AUC. The higher AUC mean
   
   | Model | AUC    |
   | ----- | ------ |
-  | GLM   |.7538  |
-  | MXGB  |.7919  |
-  | EBM   |.8253  |
+  | GLM   |0.7538  |
+  | MXGB  |0.7919  |
+  | EBM   |0.8253  |
+
+#### Investigate Best Model (EBM) for Discrimination
+
+| Compare Vs. Control | AIR    |
+  | ----- | ------ |
+  | Asian people vs. White people  |1.197  |
+  | Black people vs. White people  |0.741  |
+  | Females vs. Males   |0.948  |
 
 #### Local Feature importance across all models: 
 Feature importance refers to techniques that assign a score to input features to quantify their utility at predicting a target variable.
