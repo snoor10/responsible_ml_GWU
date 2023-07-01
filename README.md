@@ -80,13 +80,12 @@ Row_id                       | Data Type | Variable Role | Description          
   | Inputs                   |
   | ------------------------ |
   | income_std               |
-  | conforming               |
   | term_360                 |
   | loan_amount_std          |
   | intro_rate_period_std    |
   | property_value_std       |
   | no_intro_rate_period_std |
-  | debt_to_income_ratio_std |
+  
 
 * **Column(s) used as targets in the final model:** high_priced
 
