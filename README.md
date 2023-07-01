@@ -22,11 +22,11 @@ Brenden Moore  (brendenmoore@gwmail.gwu.edu)
 The highest area under the curve (AUC) belonged to the EBM model with a value of 0.8253. Therefore, we chose the EBM (Explainable Boosting Machine) model as the best model among Generalized Linear Model (GLM), Monotonic Gradient Boosting (MXGB), and Explainable Boosting Machine (EBM) models. Bias testing was done by splitting the different groups like "Black", "Asian", "White", "Male", and "Female" and calculating the Adverse Impact Ratio (AIR) and Area Under the Curve (AUC). Model extraction attack was done via red-teaming. Lastly, sensitivity analysis (stress testing), residual analysis, and remediation (removing outliers and down-sampling to increase the signal from high-priced loans) were done to ensure model debugging.
 
 ### Intended use
-* **Primary intended uses**
+* **Primary intended uses:**
 To reduce discrimination and bias in the process of issuing mortgage rates to applicants through the use of transparent explainable machine learning models. 
-* **Primary intended users**
+* **Primary intended users:**
 George Washington University Faculty, Students, Educators 
-* **Out-of-scope use cases**
+* **Out-of-scope use cases:**
 Models that appear in this repository are for educational-purposes and should not be used to determine real-world credit worthiness.
 
 ### Training data
