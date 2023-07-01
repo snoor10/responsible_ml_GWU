@@ -1,6 +1,6 @@
 # DNSC 6290_11: Group1_Home Mortgage Disclosure Act
 
-Group 1 spent Summer 2023 in DNSC 6920_11, taught by Professor Patrick Hall, developing interpretable machine learning models. The objective was to predict the probability of applicants being charged a higher rate than others for mortgages using the Home Mortgage Disclosure Act's historic mortgage reporting data. Due to the known dangers of deploying black-box machine learning models into public use where individuals care vulnerable to bias, our group worked with Professor Hall to develop explainable and interpretable predictive models that improve trust and encourage ethical decisions.
+Group 1 spent Summer 2023 in DNSC 6920_11, taught by Professor Patrick Hall, developing interpretable machine learning models. The objective was to predict the probability of applicants being charged a higher rate than others for mortgages using the Home Mortgage Disclosure Act's historic mortgage reporting data. Due to the known dangers of deploying black-box machine learning models into public use where individuals are vulnerable to bias, our group worked with Professor Hall to develop explainable and interpretable predictive models that improve trust and encourage ethical decisions.
 
 ## Model Details
 
