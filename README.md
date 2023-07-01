@@ -101,7 +101,7 @@ Our criteria for determining the best model is based on AUC. The higher AUC mean
   | Model | AUC    |
   | ----- | ------ |
   | GLM   |.7538  |
-  | MXGB  |.7917  |
+  | MXGB  |.7919  |
   | EBM   |.8253  |
 
 #### Local Feature importance across all models: 
