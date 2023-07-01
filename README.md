@@ -94,22 +94,6 @@ Row_id                       | Data Type | Variable Role | Description          
 
 * **Software and the version:** Python 3.10.12, InterpretML v0.2.5.
 
-* **Hyperparameters:** 
-
-  | Best Model Hyperparameters | Value |
-  | -------------------------- | ----- |
-  | max_bins                   |    |
-  | max_interaction_bins       |     |
-  | interactions               |      |
-  | outer_bags                 |      |
-  | inner_bags                 |      |
-  | learning_rate              |  |
-  | validation_size            |    |
-  | min_samples_leaf           |     |
-  | max_leaves                 |      |
-
-
-
 ### Quantitative analysis 
 
 #### Model selection:
